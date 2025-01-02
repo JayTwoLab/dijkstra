@@ -1,2 +1,3 @@
-# dijkstra
-Dijkstra’s Algorithm :kr: 다익스트라 알고리즘
+# Dijkstra’s Algorithm 
+- https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
