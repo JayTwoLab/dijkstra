@@ -6,7 +6,7 @@
 
 ### Graph definition
 
-<img width="50%" src="dijkstra.png" />
+<img width="70%" src="dijkstra.png" />
 
 ### Output
 ```
