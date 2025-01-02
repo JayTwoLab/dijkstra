@@ -11,7 +11,7 @@
 
 ### Graph definition
 
-<img width="70%" src="dijkstra.png" />
+<img width="60%" src="dijkstra.png" />
 
 ### Output
 ```
