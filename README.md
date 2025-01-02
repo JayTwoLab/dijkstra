@@ -1,5 +1,10 @@
 ## Dijkstra’s Algorithm 
-- https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+
+> [English](README.md) , [Korean](README.ko.md)
+
+### Algorithm
+
+- Wikipedia : https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 ### Code
 - [dijkstra.py](dijkstra.py)
