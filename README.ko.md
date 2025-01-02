@@ -1,12 +1,17 @@
 ## 다익스트라 알고리즘  
-- [위키백과: 다익스트라 알고리즘](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
+> [English](README.md) , [Korean](README.ko.md)
+
+### 알고리즘
+
+- https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 ### 코드  
 - [dijkstra.py](dijkstra.py)
 
 ### 그래프 정의  
 
-<img width="70%" src="dijkstra.png" />  
+<img width="50%" src="dijkstra.png" />  
 
 ### 출력 결과  
 ```
