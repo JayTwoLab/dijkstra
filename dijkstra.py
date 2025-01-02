@@ -1,19 +1,19 @@
 import heapq
 
 def dijkstra(graph, start):
-    # 최단 거리 초기화
+    # Initialize shortest distance
     distance = {node: float('inf') for node in graph}
     distance[start] = 0
-    priority_queue = [(0, start)]  # (거리, 정점)
+    priority_queue = [(0, start)]  # (Distance, Vertex)
 
     while priority_queue:
         current_distance, current_node = heapq.heappop(priority_queue)
 
-        # 이미 처리된 정점이면 건너뛰기
+        # Skip if already processed vertices
         if current_distance > distance[current_node]:
             continue
 
-        # 인접 노드 확인
+        # Verifying Adjacent Nodes
         for neighbor, weight in graph[current_node]:
             distance_through_current = current_distance + weight
             if distance_through_current < distance[neighbor]:
@@ -23,7 +23,7 @@ def dijkstra(graph, start):
     return distance
 
 def main():
-    # 그래프 정의 (인접 리스트 형태)
+    # Graph definition (adjacent list format)
     graph = {
         'A': [('B', 1), ('D', 4)],
         'B': [('C', 2), ('E', 1)],
@@ -32,14 +32,14 @@ def main():
         'E': []
     }
 
-    # 시작 정점
+    # the starting point(vertex)
     start = 'A'
 
-    # 다익스트라 알고리즘 실행
+    # Run the Dykstra algorithm
     shortest_distances = dijkstra(graph, start)
     
-    # 결과 출력
-    print("최단 거리:", shortest_distances)
+    # Output Results
+    print("the shortest distance:", shortest_distances)
 
 if __name__ == "__main__":
     main()
