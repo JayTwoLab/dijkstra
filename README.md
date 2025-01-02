@@ -5,15 +5,8 @@
 - [dijkstra.py](dijkstra.py)
 
 ### Graph definition
-```python
-graph = {
-	'A': [('B', 1), ('D', 4)],
-	'B': [('C', 2), ('E', 1)],
-	'C': [],
-	'D': [('E', 3)],
-	'E': []
-}
-```
+
+<img src="dijkstra.png" />
 
 ### Output
 ```
